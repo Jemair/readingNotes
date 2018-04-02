@@ -1,1 +1,1 @@
-# readingNotes
+# ReadingNotes using mindmanagement(past) and xmind(current) 

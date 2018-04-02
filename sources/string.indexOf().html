@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+	var stringValue = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ex, rerum perspiciatis ad numquam alias optio in est fuga ab."
+	var positions = [];//保存匹配字符串位置
+	var pos = stringValue.indexOf('e');//获取匹配字符串位置
+
+	while(pos>-1){
+		positions.push(pos);//将匹配字符串位置推入数组
+		pos = stringValue.indexOf('e', pos+1);//从匹配字符串位置的下一个位置继续遍历
+	}
+
+	alert(positions);
+	</script>
+</head>
+<body>
+</body>
+</html>
